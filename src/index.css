@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body-color {
+  @apply bg-[#fefcfb];
+}
+
+/* This provide the sections to be in the center of the page and take upto maximum 7xl of width of the page in large screens */
+.basic-struture {
+  @apply w-full max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto flex flex-col;
+}
+
+.yellow-text {
+  @apply text-[#F4AC20];
+}
+.yellow-text-hover:hover {
+  @apply text-[#F4AC20];
+}
+
+.yellow-bg {
+  @apply bg-[#F4AC20];
+}
+.yellow-bg-hover:hover {
+  @apply bg-[#F4AC20];
+}
+.yellow-bg-bold-hover:hover{
+  @apply bg-[#f49120];
+}
